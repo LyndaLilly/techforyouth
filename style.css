@@ -1,0 +1,24 @@
+h1 {
+    background-color: black;
+    color: azure;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dog {
+    color: blue;
+    background-color: bisque;
+    font-size: 80;
+}
+
+#set {
+    color: blueviolet;
+    background-color: black;
+    font-size: 80px;
+
+}
