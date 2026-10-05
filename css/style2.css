@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+
+}
+
+.sec1{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: justify;
+    text-align: center;
+    text-align: end;
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+     font-family: "Sofia", cursive;
+     font-size: 30px;
+     font-weight: 900;
+
+
+}
+
+
+.new{
+    font-weight: lighter !important;
+    color: black;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    text-decoration: underline dashed;
+    text-decoration: overline dashed red;
+    line-height: 2;
+    word-spacing: 30px;
+    /* letter-spacing: 40px; */
+    text-shadow: 1px 1px 2px red;
+}
+
+@font-face{
+    font-family: lucky-saint;
+    src: url("../fonts/lucky-saint/Lucky\ Saint\ Regular.ttf")
+}
+
+@font-face {
+    font-family: sunlight-memories-script;
+    src: url("../fonts/sunlight-memories-script/Sunlight\ Memories\ Script.otf");
+}
+
+.newp{
+    background-color: red;
+    color: white;
+    /* font-family: lucky-saint; */
+    /* font-family: sunlight-memories-script; */
+    font-family: "Playwrite CA Guides", cursive;
+    padding: 30px;
+    margin: 30px;
+}
+
+
+.icons{
+    color: blue;
+    font-size: 50px;
+}
+
+
+.div5{
+    background-color: teal;
+    padding: 40px;
+    width: 300px;
+    /* height: 200px; */
+    margin: 30px;
+
+}
+
+
+
+.img1{
+    /* border-radius: 20px; */
+}
+
+.img2{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid red;
+}
+
+
+.div6{
+    background-color: black;
+    color: yellow;
+    padding: 10px;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 500px;
+    max-height: 900px;
+    overflow: auto;
+}
+
+.div7{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    box-shadow: 0 0 7px 0 black;
+    box-shadow: inset 0 0 7px 4px black;
+}
+
+
+.img3{
+    width: 400px;
+    margin: 30px;
+    box-shadow: 0 0 7px 0 red;
+}
+
+
+.htag{
+    /* display: none; */
+    opacity: 0
+}
+
+span{
+    display: inline-block;
+    /* display: block; */
+    margin: 30px
+}
+
+
+button{
+    background: transparent;
+    outline: 0;
+    border: 0;
+    background-color: red;
+}
+
+.cont{
+    position: relative;
+}
+
+
+.box1{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    line-height: 300px;
+    position: relative;
+
+}
+
+
+/* .box2{
+    background-color: purple;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    line-height: 300px;
+    position: absolute;
+    left: 250px;
+    top: 150px;
+} */
+
+.box3{
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    line-height: 300px;
+ position: sticky;
+ top: 10px;
+}

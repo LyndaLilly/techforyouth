@@ -1,8 +1,8 @@
-h1 {
+/* h1 {
     background-color: black;
     color: azure;
 
-}
+} */
 
 * {
     margin: 0;
@@ -84,3 +84,55 @@ h1 {
 
 
  }
+
+ .halo{
+    background-color: red;
+    margin: 40px;
+    border: 3px solid black;
+    outline: 10px solid green;
+    outline-offset: 20px
+ }
+
+
+
+ .div1{
+    /* background-color: rgba(122, 143, 32, 0.7); */
+    background-color: #856443;
+    background-color: hsla(0, 90%, 20%,0.3);
+    height: 300px;
+    padding: 20px;
+    color: white;
+ }
+
+
+ .div2{
+    background-image: url("../img/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 96% 30%;
+   color: white;
+   margin: 30px;
+   padding: 20px;
+ }
+
+
+
+ .div3{
+   /* background-image: url("../img/ai.jpg"); */
+   /* background: linear-gradient(to right, rgba(0, 128, 0, 0.642), rgba(0, 128, 0, 0.582)), url("../img//ai.jpg"); */
+   background: linear-gradient(to right, rgba(128, 0, 128, 0.482) 80%, orange ), url(../img/about.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom right;
+   margin: 30px;
+   padding: 20px;
+   height: 300px;
+   /* overflow: auto; */
+   /* width: 300px;
+   overflow: auto; */
+   background-attachment: fixed;
+ }
+
+ /* .div3 h2{
+   width: 500px;
+ } */
