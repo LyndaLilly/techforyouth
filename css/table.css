@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+  
+}
+
+.div1{
+padding: 20px;
+
+}
+
+table{
+
+    width: 100%;
+    
+}
+
+th, td{
+    padding: 20px;
+}
+
+/* th{
+    background-color: teal;
+    color: white;
+}
+
+
+td{
+    background-color: black;
+    color: yellow;
+    border: 2px solid white;
+} */
+
+/* tr:nth-child(2){
+    background-color: aqua;
+} */
+
+tr:nth-child(odd){
+    background-color: rgb(192, 183, 183);
+}
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+th{
+    text-align: start;
+    background-color: teal;
+    color: white;
+}
+
+td{
+    /* height: 100px; */
+    vertical-align: bottom;
+}
+
+
+.td1{
+    border: 2px solid teal;
+}
+
+
+ul{
+    background-color: white;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 4px 0 black;
+    width: 50%;
+    border-radius: 20px;
+    list-style-position: inside;
+    list-style-type: decimal-leading-zero;
+
+}
+
+ul li{
+    padding: 10px;
+    background-color: blue;
+    margin: 20px;
+    /* display: inline; */
+}
+
+ul li::marker{
+    color: yellow;
+}
+
+ol{
+      background-color: white;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 0 4px 0 black;
+    width: 50%;
+    border-radius: 20px;
+    list-style-position: inside;
+    margin-top: 30px;
+}
+
+
+ol li{
+    padding: 10px;
+    background-color: blue;
+    margin: 20px;
+    /* display: inline; */
+}
+
+
+.all{
+        background-color: whitesmoke;
+    box-shadow: 0 0 3px black;
+     padding: 0px 20px;
+     overflow: hidden;
+}
+
+.nav1{
+
+   
+    color: white;
+    float: right;
+    margin-top: 20px;
+}
+
+.nav1 a{
+    color: black;
+    text-decoration: none;
+    padding: 10px
+}
+
+a:hover{
+    color: purple;
+    border-bottom: 2px solid black;
+    padding-left: 30px;
+}
+
+/* a:visited{
+    color: red;
+}
+
+a:link{
+    color: pink;
+} */
+
+
+
+
+.logo img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 70px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+
+.box1{
+    background-color: red;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    width: 20%;
+    color: white;
+
+  
+    
+}
+
+.box2{
+    background-color: purple;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    width: 20%;
+    color: white;
+   
+}
+
+.box{
+    /* border: 5px solid black; */
+    /* overflow: hidden; */
+    display: table;
+    width: 100%;
+   
+}
+
+
+.box3{
+    background-color: orange;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+    width: 20%;
+    color: white;
+}
+
+
+.box4{
+    background-color: green;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+     float: left;
+    width: 20%;
+    color: white;
+
+}
+
+
+.box5{
+    background-color: black;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: right;
+    width: 20%;
+    color: white;
+
+}
+
+.box6{
+    clear: left;
+}
+
+.div3{
+    background: linear-gradient(rgba(0, 128, 0, 0.37), green), url("../img/ai.jpg");
+    display: table;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.htag{
+    float: left;
+    width: 40%;
+    color: white;
+    text-align: justify;
+  
+}
+
+.img{
+    float: right;
+    width: 40%;
+}
+
+.img img{
+    width: 100%;
+}
+
+.htag h1{
+  width: 400px;
+}

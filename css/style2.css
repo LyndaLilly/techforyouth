@@ -160,7 +160,7 @@ button{
 }
 
 
-/* .box2{
+.box2{
     background-color: purple;
     color: white;
     font-size: 30px;
@@ -172,7 +172,8 @@ button{
     position: absolute;
     left: 250px;
     top: 150px;
-} */
+    z-index: -1;
+}
 
 .box3{
     background-color: blue;
@@ -184,5 +185,21 @@ button{
     margin: 30px;
     line-height: 300px;
  position: sticky;
- top: 10px;
+ bottom: 0;
+
+}
+
+
+.box4{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    line-height: 300px;
+ position: fixed;
+
+
 }
