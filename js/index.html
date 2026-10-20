@@ -24,6 +24,235 @@
 
     <h2 id="demo"></h2>
 
+
+    <!-- // JAVASCRIPT BEGINNERS ASSIGNMENT
+
+// Topic: JavaScript Conditional Statements
+// Concepts: "prompt()", "if", "else if", "else", "console.log()", and "Number()"
+// Level: Beginner
+// Number of Assignments: 5
+
+// GENERAL INSTRUCTIONS
+
+// 1. Complete all five assignments using JavaScript.
+// 2. Use "prompt()" to collect input from the user.
+// 3. Use "if", "else if", and "else" to make decisions.
+// 4. Use "console.log()" to display the results.
+// 5. Convert numeric inputs using "Number()" before performing calculations.
+// 6. Test each program with at least three different inputs, including invalid inputs where applicable.
+// 7. Write your code yourself and ensure you understand how it works.
+
+// ---
+
+// ASSIGNMENT 1: STUDENT GRADING SYSTEM
+
+// Task: Create a program that collects a student's name and examination score and determines their grade.
+
+// Requirements
+
+// Your program should:
+
+// 1. Ask the student to enter their name.
+// 2. Ask the student to enter their examination score out of 100.
+// 3. Determine the student's grade using the following conditions:
+
+// - Score of 80–100: Display "Excellent — Grade A".
+// - Score of 70–79: Display "Very Good — Grade B".
+// - Score of 60–69: Display "Good — Grade C".
+// - Score of 50–59: Display "Pass — Grade D".
+// - Score of 0–49: Display "Fail — Grade F".
+// - Score below 0 or above 100: Display "Invalid score".
+
+// Expected Output
+
+// If the student enters the name John and a score of 85, the program should display:
+
+// John, your grade is A. Excellent!
+
+// Challenge: Ensure that the program does not accept an invalid score.
+
+// ---
+
+// ASSIGNMENT 2: ATM WITHDRAWAL SYSTEM
+
+// Task: Create a simple ATM withdrawal program that checks whether a user can withdraw money from their account.
+
+// Requirements
+
+// Your program should:
+
+// 1. Ask the user to enter their account balance.
+// 2. Ask the user how much they want to withdraw.
+// 3. Apply the following conditions:
+
+// - If the withdrawal amount is less than or equal to zero, display "Invalid withdrawal amount".
+
+// - If the withdrawal amount is greater than the account balance, display "Insufficient funds".
+
+// - If the withdrawal amount exceeds ₦100,000, display "Withdrawal exceeds the daily limit".
+// - If the withdrawal amount equals the account balance and does not exceed the daily limit, display "Withdrawal successful. Your balance is now zero".
+// - Otherwise, display "Withdrawal successful" and show the remaining balance.
+
+// Expected Output
+
+// Account balance: ₦80,000
+
+// Withdrawal amount: ₦20,000
+
+// Output:
+
+// Withdrawal successful.
+
+// Remaining balance: ₦60,000
+
+// Challenge: Arrange your conditions correctly so that the program produces the expected result in every situation.
+
+// ---
+
+// ASSIGNMENT 3: ELECTRICITY BILL CALCULATOR
+
+// Task: Create a program that calculates a customer's electricity bill based on the number of units consumed.
+
+// Requirements
+
+// Your program should:
+
+// 1. Ask the customer to enter their name.
+// 2. Ask the customer to enter the number of electricity units consumed.
+// 3. Use the following rates:
+
+// - 0–100 units: ₦50 per unit.
+// - 101–200 units: ₦75 per unit.
+// - Above 200 units: ₦100 per unit.
+
+// 4. If the number of units is negative, display "Invalid units".
+// 5. Calculate the bill using the applicable rate for all units consumed.
+// 6. Display the customer's name, units consumed, rate per unit, and total bill.
+
+// Expected Output
+
+// Customer name: Mary
+
+// Units consumed: 80
+
+// Output:
+
+// Customer: Mary
+
+// Units consumed: 80
+
+// Rate per unit: ₦50
+
+// Total bill: ₦4,000
+
+// Challenge: Make sure the program uses the correct rate for each consumption category.
+
+// ---
+
+// ASSIGNMENT 4: LOGIN AND ACCESS CONTROL SYSTEM
+
+// Task: Create a simple login system using JavaScript.
+
+// Use the following credentials in your program:
+
+// - Username: "admin"
+// - Password: "12345"
+
+// Requirements
+
+// Your program should:
+
+// 1. Ask the user to enter a username.
+// 2. Ask the user to enter a password.
+// 3. Apply the following conditions:
+
+// - If both username and password are correct, display "Login successful. Welcome, Admin!"
+// - If the username is correct but the password is wrong, display "Incorrect password".
+// - If the password is correct but the username is wrong, display "Username not found".
+// - If both are incorrect, display "Invalid username and password".
+
+// Additional Challenge: User Roles
+
+// After a successful login, ask the user to enter their role.
+
+// - If the role is "admin", display "Full access granted".
+// - If the role is "editor", display "Editing access granted".
+// - Otherwise, display "Access denied".
+
+// Challenge: Ensure that the role prompt appears only after a successful login.
+
+// Note: This is a beginner practice exercise, not a secure authentication system.
+
+// ---
+
+// ASSIGNMENT 5: SHOPPING DISCOUNT SYSTEM
+
+// Task: Create a shopping program that calculates a customer's discount and final payment.
+
+// Requirements
+
+// Your program should ask for:
+
+// 1. Customer's name.
+// 2. Total purchase amount.
+// 3. Customer type: "regular" or "premium".
+
+// Discount Rules
+
+// - Purchase below ₦10,000: No discount.
+// - Purchase from ₦10,000 to ₦49,999: 5% discount.
+// - Purchase from ₦50,000 to ₦99,999: 10% discount.
+// - Purchase of ₦100,000 or more: 15% discount.
+
+// Additional Rules
+
+// - Premium customers receive an additional 5 percentage points off the applicable discount.
+// - If the purchase amount is negative, display "Invalid purchase amount".
+// - If the customer type is neither "regular" nor "premium", display "Invalid customer type".
+
+// For example, a premium customer purchasing goods worth ₦60,000 receives a total discount of 15%.
+
+// Expected Output
+
+// Customer name: John
+
+// Purchase amount: ₦60,000
+
+// Customer type: premium
+
+// Output:
+
+// Customer: John
+
+// Original amount: ₦60,000
+
+// Discount: 15%
+
+// Discount amount: ₦9,000
+
+// Final amount to pay: ₦51,000
+
+// Challenge: Ensure the program calculates the discount amount and final payment correctly for both regular and premium customers.
+
+// ---
+
+// FINAL SUBMISSION REQUIREMENTS
+
+// Before submitting your work, ensure that:
+
+// - All five assignments are completed.
+// - Each program uses "prompt()" to receive user input.
+// - Each program uses conditional statements appropriately.
+// - Numeric inputs are converted using "Number()".
+// - Results are displayed using "console.log()".
+// - Each program has been tested with at least three different inputs.
+// - Invalid inputs are handled where required.
+
+// BONUS CHALLENGE
+
+// Modify your programs to handle empty inputs and prevent invalid values from producing incorrect results. -->
+
+
  
     <script src="app.js"></script>
 
